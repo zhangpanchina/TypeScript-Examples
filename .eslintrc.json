@@ -1,0 +1,13 @@
+{
+  "parser": "@typescript-eslint/parser",     /* 指定解析器 */
+  "plugins": ["@typescript-eslint"],         /* 指定插件 */
+  "parserOptions": {                         /* 使用类型信息的规则 */
+    "project": "./tsconfig.json"
+  },
+  "extends": [                               /* 具体使用的规则 */
+    "plugin:@typescript-eslint/recommended"
+  ],
+  "rules": {
+    // "@typescript-eslint/no-inferrable-types": "off"
+  }
+}
