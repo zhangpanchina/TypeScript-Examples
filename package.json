@@ -6,7 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --mode=development --config ./build/webpack.config.js",
     "build": "webpack --mode=production --config ./build/webpack.config.js",
-    "commit": "git add . && git-cz && git pull && git push"
+    "commit": "git-cz && git pull && git push"
   },
   "repository": {
     "type": "git",
@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/zhangpanchina/TypeScript-Examples#readme",
   "devDependencies": {
+    "@types/jquery": "^3.3.32",
     "clean-webpack-plugin": "^3.0.0",
     "cz-conventional-changelog": "3.1.0",
     "html-webpack-plugin": "^3.2.0",
@@ -34,5 +35,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "dependencies": {
+    "jquery": "^3.4.1",
+    "moment": "^2.24.0"
   }
 }

@@ -8,6 +8,6 @@
 // import './src/h_class'
 // import './src/i_class_interface'
 // import './src/j_generics'
-import './src/p_advanced'
+import './src/t_libs/index'
 let hello: string = 'Hello TypeScript';
 document.querySelectorAll('.app')[0].innerHTML = hello
